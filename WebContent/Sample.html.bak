@@ -1,0 +1,212 @@
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Book Store</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}	
+	body
+	{
+		background-image: url("Photo.jpg");
+	}
+	#topmid{
+		border:0px solid black;
+		color:#FFFFFF;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 0px;
+		padding-left: 30%;
+		font-style: oblique;
+		font-size:38px;
+	}
+	a:hover{
+		color:red;
+	}
+	a:link{
+		color: green;
+		text-decoration: none;
+	}
+	.tab{
+		border:1px black solid;
+		background-color: #FFE5CC;
+		margin-left: 48%;
+		width:450px;
+		color:green;
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 22px;
+		margin-bottom:10px;
+		padding:10px;
+	}
+	.home{
+		border:1px black solid;
+		background-color: #ccffcc;
+		margin-left: 1%;
+		width:200px;
+		color:blue;
+		font-weight: bold;
+		font-style:italic;
+		text-align:center;
+		font-size: 25px;
+		margin-bottom:10px;
+		padding:10px;
+		float:left;
+		clear:both;
+	}
+	.yel{
+	color:yellow;
+	}
+	.red{
+		color:red;
+	}
+	.green{
+		color:green;
+	}
+	.hd{
+		font-size:25px;
+	}
+	.brown{
+		color:brown;
+	}
+	</style>
+	<script>(function(w, d) { w.CollectId = "61ec207bbe19f1762af02c6c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+	
+</head>
+<body>
+
+	<div id="topmid">
+		<h1>Welcome to Online Book Store</h1>
+	</div>
+	<div class="home">
+		<a href="">Home</a>
+	</div>
+
+	<div class="home">
+		<a href="index.html">Login</a>
+	</div>
+	
+	<div class="home">
+		<a href="viewbook">Books Available</a>
+	</div>
+
+	<div class="home">
+		<a href="index.html">Logout</a>
+		
+	</div>
+	
+		<div class="home">
+		<a href="contact.html">Contact</a>
+	</div>
+	
+
+	
+</body>
+  <div class="container my-4">
+
+    <p class="font-weight-bold">A footer is an additional navigation method for websites. It can hold links, buttons, company info, copyrights, forms and many other elements.</p>
+
+    <p><strong>Detailed documentation and more examples you can find in our <a href="https://mdbootstrap.com/docs/standard/navigation/footer/"
+          target="_blank">Bootstrap Footer Docs</a> </p>
+      
+      
+    <hr class="mt-5">
+
+    <p>Built with <a target="_blank" href="https://mdbootstrap.com/docs/standard/">Material Design for Bootstrap</a> - free and powerful Bootstrap UI KIT</p>
+
+    <a class="btn btn-primary me-2" href="https://mdbootstrap.com/docs/standard/getting-started/installation/" target="_blank" role="button">Download MDB UI KIT <i class="fas fa-download ms-2"></i></a>
+    <a class="btn btn-danger me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/" role="button">Learn more</a>
+    <a class="btn btn-success me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/getting-started/" role="button">Tutorials</a>
+    <a class="btn btn-dark me-2" target="_blank" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">GitHub <i class="fab fa-github ms-2"></i></a>
+
+		<hr>
+
+    <p class="font-weight-bold">Basic example</p>
+    
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  </div>
+</html>
